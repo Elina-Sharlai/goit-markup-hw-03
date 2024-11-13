@@ -285,10 +285,14 @@ img {
   margin-bottom: 48px;
 }
 
+.portf-inf0 {
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+}
+
 .portfolio-item {
-  border: 1px solid var(--cornflower);
   background-color: var(--white);
-  border: 1px solid var(--cornflower);
   width: calc((100%-48) / 3);
 }
 
