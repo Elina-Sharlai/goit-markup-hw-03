@@ -40,9 +40,7 @@ img {
   margin: 0 auto;
 }
 
-.advantages-section,
-.team-section,
-.portfolio-section {
+.section {
   padding: 120px 0;
 }
 
@@ -122,13 +120,17 @@ img {
   color: #404bbf;
 }
 /* #endregion Header */
+
 /* #region Hero */
 
+.hero-section {
+  padding-top: 0;
+}
 .hero-container {
-  background: #2e2f42;
-  height: 600px;
-  max-width: 1158px;
+  max-width: none;
+  background-color: #2e2f42;
   align-items: center;
+  padding-bottom: 188px;
 }
 
 .hero-title {
